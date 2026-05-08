@@ -65,3 +65,11 @@ This script:
 
 - Make sure `model.joblib`, `amount_scaler.joblib`, and `time_scaler.joblib` are present in the project root before running `app.py`.
 - The dataset includes a balanced version of the credit card fraud data.
+
+## What’s new
+
+- Improved dashboard design with Bootstrap and custom styling.
+- Login flow and session-based recent prediction history.
+- Dataset insights cards for transaction counts, fraud ratio, and average amounts.
+- Risk-level scoring and probability output for each prediction.
+- Settings page with model metadata and dataset overview.

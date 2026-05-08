@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #0f2a44 0%, #111d2f 100%);
+    color: #333;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.dashboard-page {
+    padding-bottom: 60px;
+}
+
+.card,
+.auth-card {
+    border: none;
+    border-radius: 1.35rem;
+}
+
+.bg-soft {
+    background: rgba(248, 249, 250, 0.95);
+}
+
+.result-card {
+    border-left: 5px solid #0d6efd;
+}
+
+.stat-card,
+.info-card {
+    min-height: 110px;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.35rem;
+}
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #07121f 0%, #112a45 100%);
+}
+
+.auth-wrapper {
+    width: 100%;
+    max-width: 520px;
+    padding: 1.5rem;
+}
+
+.auth-card {
+    padding: 2.5rem;
+    background: white;
+}
+
+.auth-card h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+}
+
+.auth-card p {
+    color: #6c757d;
+}
+
+.table-hover tbody tr:hover {
+    background: rgba(13, 110, 253, 0.08);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+
+.alert {
+    border-radius: 1rem;
+}
